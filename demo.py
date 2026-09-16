@@ -24,3 +24,4 @@ pipline = TrainPipeline()
 pipline.run_pipeline()
 
 print("testing pr github webhook")
+print("testing2 pr github webhook")
