@@ -23,8 +23,4 @@ from src.pipline.training_pipeline import TrainPipeline
 pipline = TrainPipeline()
 pipline.run_pipeline()
 
-print("testing pr github webhook")
-print("testing2 pr github webhook")
-print("testing3 pr github webhook")
-print("testing4 pr github webhook")
-print("testing5 pr github webhook")
+print("ending the Vehicle Insurance Prediction with MLOps demo script.")
