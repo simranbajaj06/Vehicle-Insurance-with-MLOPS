@@ -135,8 +135,6 @@ async def predictRouteClient(request: Request):
         # Interpret the prediction result as 'Response-Yes' or 'Response-No'
         status = "Response-Yes" if value == 1 else "Response-No"
 
-        # Render the same HTML page with the prediction result
-       # Render the same HTML page with the prediction result
         return templates.TemplateResponse(
             request=request,
             name="vehicledata.html",
@@ -149,4 +147,5 @@ async def predictRouteClient(request: Request):
 # Main entry point to start the FastAPI server
 if __name__ == "__main__":
     print(f"Starting FastAPI server at http://{APP_HOST}:{APP_PORT}")
+    print(f"Access the application at http://{APP_HOST}:{APP_PORT}/")
     app_run(app, host=APP_HOST, port=APP_PORT)
