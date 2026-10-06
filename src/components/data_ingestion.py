@@ -41,6 +41,7 @@ class DataIngestion:
             logging.info(f"Saving exported data into feature store file path: {feature_store_file_path}")
             dataframe.to_csv(feature_store_file_path,index=False,header=True)
             print(f"Exported data into feature store file path: {feature_store_file_path}")
+            print(f"Shape of dataframe: {dataframe.shape}")
             return dataframe
 
         except Exception as e:
