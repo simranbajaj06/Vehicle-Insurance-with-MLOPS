@@ -9,3 +9,4 @@ setup(
 )
 
 print("Setup script executed successfully. The package 'src' has been configured with version 0.0.1 and author information.")
+print("setup 3 executed")
