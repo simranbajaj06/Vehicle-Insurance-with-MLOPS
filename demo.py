@@ -22,5 +22,3 @@ from src.pipline.training_pipeline import TrainPipeline
 
 pipline = TrainPipeline()
 pipline.run_pipeline()
-
-print("Vehicle Insurance Prediction with MLOps demo script completed successfully.")
