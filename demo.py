@@ -23,3 +23,4 @@ from src.pipline.training_pipeline import TrainPipeline
 pipline = TrainPipeline()
 pipline.run_pipeline()
 print("Pipeline executed successfully.")
+print("The training pipeline has completed all stages, including data ingestion, validation, transformation, model training, evaluation, and pushing the model if accepted.")
