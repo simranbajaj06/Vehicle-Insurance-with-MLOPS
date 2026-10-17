@@ -147,4 +147,4 @@ async def predictRouteClient(request: Request):
 # Main entry point to start the FastAPI server
 if __name__ == "__main__":
     app_run(app, host=APP_HOST, port=APP_PORT)
-    print("Server started at http://localhost:8000")
+    print(f"Server started at http://{APP_HOST}:{APP_PORT}")
