@@ -10,4 +10,3 @@ setup(
 
 print("Setup script executed successfully. The package 'src' has been configured with version 0.0.1 and author information.")
 print("setup.py has created the necessary package structure and metadata for distribution.")
-print("You can now install the package using 'pip install .' in the directory containing this setup.py file.")
