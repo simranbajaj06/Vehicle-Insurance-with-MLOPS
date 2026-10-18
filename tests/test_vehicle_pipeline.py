@@ -42,3 +42,7 @@ def test_prepare_prediction_input_rejects_invalid_record():
 def test_prepare_prediction_input_rejects_invalid_record2():
     with pytest.raises(ValueError, match="vehicle_type"):
         prepare_prediction_input({"policy_id": "POL-101"})
+
+def test_prepare_prediction_input_rejects_invalid_recor2():
+    with pytest.raises(ValueError, match="vehicle_type"):
+        prepare_prediction_input({"policy_id": "POL-101"})
