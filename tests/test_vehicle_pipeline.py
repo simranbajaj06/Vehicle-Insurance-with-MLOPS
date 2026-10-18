@@ -38,3 +38,7 @@ def test_prepare_prediction_input_normalizes_vehicle_type():
 def test_prepare_prediction_input_rejects_invalid_record():
     with pytest.raises(ValueError, match="policy_id"):
         prepare_prediction_input({"vehicle_type": "SUV"})
+
+def test_prepare_prediction_input_rejects_invalid_record2():
+    with pytest.raises(ValueError, match="vehicle_type"):
+        prepare_prediction_input({"policy_id": "POL-101"})
