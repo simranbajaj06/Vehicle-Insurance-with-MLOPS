@@ -57,3 +57,4 @@ def test_prepare_prediction_input_rejects_invalid_record():
 
 print("testing test_prepare_prediction_input_rejects_invalid_record completed successfully.")
 print("All tests in test_vehicle_pipeline.py executed successfully.")
+print("All tests in test_vehicle_pipeline.py executed successfully.")
