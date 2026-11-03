@@ -40,3 +40,4 @@ def test_prepare_prediction_input_normalizes_vehicle_type():
 
 print("testing test_prepare_prediction_input_rejects_invalid_record completed successfully.")
 print("All tests in test_vehicle_pipeline.py completed successfully.")
+print("All tests in test_vehicle_pipeline.py completed successfully.")
